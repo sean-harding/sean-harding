@@ -22,11 +22,11 @@ method for the SIAM problem in order to improve upon, or understand on a formal 
 The SIAM model is the simplest impurity model that can be constructed. Here, I have extended the code to study the ‘next simplest’ problem, 
 the two-impurity anderson model (TIAM). 
 
-4.) Fluids
-This code was written as example code for students undertaking a master’s level research project studying the properties of simple fluids. 
-It computes the phase diagram (under which conditions is the fluid a liquid and which a gas), and density profile of a simple fluid. 
+4.) Teaching
+Example codes that I have written as part of my responsibilities as a teaching assistant for undergraduate computing. First, there are some examples of 
+code written for students undertaking a master’s level research project studying the properties of simple fluids. It computes the phase diagram 
+(under which conditions is the fluid a liquid and which a gas), and density profile of a simple fluid. The idea was to give the students an example of
+how the code might be structured, for them to then use it as a guide to tackle more complicated problems.
 
-5.) Rocket orbits
-This software is an example of using the Runge-Kutta 4th order technique to solve the problem of a rocketship in orbit around the earth and moon, 
-written as example code for an undergraduate computing class that I am a demonstrator for. I have opted here for an object oriented approach, 
-which allows generalization of the problem to include more than one object in motion.
+There is also software as an example of using the Runge-Kutta 4th order technique to solve the problem of a rocketship in orbit around the earth and moon, 
+I have opted here for an object oriented approach, which allows generalization of the problem to include more than one object in motion.
