@@ -1,10 +1,10 @@
 A brief guide to the repositories listed on this account:
 
-1.) SIAM TB solver
+1.) TIAM TB solver
 In quantum mechanics we are interested in the solution of eigenvalue problems pertaining to large Hermitian matrices. A given model is described by a 
 matrix called the Hamiltonian, which is often the object of immediate interest. The Hamiltonian is typically too large for conventional methods to be 
 applied to find its eigenvalues. In this package, I have implemented in Python an approach to finding the lowest eigenvalue and associated eigenvector, 
-called the ground state, of a particular problem called the Single Impurity Anderson Model (SIAM). The method works by using physical intuition to 
+called the ground state, of a particular problem called the Two-Impurity Anderson Model (TIAM). The method works by using physical intuition to 
 identify a basis in which the ground state is 'compact' - that is, has only a small number of large components, and finds these dominant components 
 through an iterative proceedure.
 
@@ -13,14 +13,15 @@ The spectral function is a measure of the density of eigenvectors at a given eig
 used to assess its accuracy. The function is computed by an expansion on Chebyshev polynomials, and in 'spectral.py' the weight of each polynomial is 
 computed.
 
-2.) Slave boson
+2.) SIAM TB solver
+This is the previous iteration of the TIAM TB solver code, used to tackle the simpler Single Impurity Anderson Model. The TIAM code is better written
+and paralellized compared to the simpler SIAM code.
+
+
+3.) Slave boson
 The code in SIAM solver relies on a specific choice of basis for the computation of the SIAM spectral function. An important link that I have uncovered 
 in the project is the link between this basis and the results of a class of methods known as slave boson methods. I have here implemented the slave boson 
 method for the SIAM problem in order to improve upon, or understand on a formal level, the basis choice that has been employed in the SIAM solver code.
-
-3.) TIAM solver
-The SIAM model is the simplest impurity model that can be constructed. Here, I have extended the code to study the ‘next simplest’ problem, 
-the two-impurity anderson model (TIAM). 
 
 4.) Teaching
 Example codes that I have written as part of my responsibilities as a teaching assistant for undergraduate computing. First, there are some examples of 
@@ -29,4 +30,5 @@ code written for students undertaking a master’s level research project studyi
 how the code might be structured, for them to then use it as a guide to tackle more complicated problems.
 
 There is also software as an example of using the Runge-Kutta 4th order technique to solve the problem of a rocketship in orbit around the earth and moon, 
-I have opted here for an object oriented approach, which allows generalization of the problem to include more than one object in motion.
+I have opted here for an object oriented approach, which allows generalization of the problem to include more than one object in motion. The idea was to
+give the code as an example to students, and is not exhaustive in its approach to the problem.
