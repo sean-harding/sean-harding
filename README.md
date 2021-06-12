@@ -1,2 +1,3 @@
 - Hi, I’m Sean Harding, a PhD student at the University of Bristol
 - I’m interested in the electronic structure of strongly correlated materials
+- see sean-harding/sean-harding for a document detailing the structure of the repositiories and how to find code
