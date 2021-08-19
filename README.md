@@ -1,3 +1,4 @@
 - Hi, I’m Sean Harding, a PhD student at the University of Bristol
 - I’m interested in the electronic structure of strongly correlated materials
-- see sean-harding/sean-harding for a document detailing the structure of the repositiories and how to find code
+- See SIAM_tb_solver and TIAM_tb_solver for PhD project code written in Python for many-body physics of quantum systems
+- See the Teaching/"rocket.cpp" and lattice_boltzmann for example C++ code
